@@ -1,0 +1,12 @@
+<resources>
+    <string name="tweet">Tweet</string>
+    <string name="login">Sign In</string>
+    <string name="post_twitter">Twitter</string>
+    	<string name="error">Error</string>
+    	<string name="checkconnection">Please check your internet connection and try again once connected</string>
+    	<string name="wait">Please Wait</string>
+    	
+    	  <string name="status_update">Status updated successfully</string>
+    <string name="update_failure">Failed to update status</string>
+
+</resources>
