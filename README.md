@@ -8,8 +8,9 @@ An Easy Twitter Client for Android
 
 1.
 Put these permissions in your manifest:
-    uses-permission android:name="android.permission.INTERNET"
-    uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"
+
+      <uses-permission android:name="android.permission.INTERNET" />
+      <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
 2.
 Make sure to use TwitterEasyClient as library project
