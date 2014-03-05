@@ -1,0 +1,16 @@
+/.classpath
+/.project
+/.settings
+/.pmd
+/bin
+/cache
+/gen
+/target
+/project.properties
+/res/**/Thumbs.db
+/project.properties
+/project.properties
+/.gradle
+/build
+/local.properties
+.DS_Store
