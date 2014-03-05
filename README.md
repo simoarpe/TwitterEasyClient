@@ -20,16 +20,16 @@ Set in project build target Android 4.3 (API 18)
 4.
  Use TwitterEasyClient from your activity:
 
- //setup
- TwitterDialogFragment twitterDialog = new TwitterDialogFragment.Builder("message","url.com") //
-		.callbackUrl("http://www.website.com") //
-		.consumerKey("XXXXXXXXXXXXXXXXXXXXXX") //
-		.consumerSecret("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") //
-		.urlOAuth("oauth_verifier") //
-		.build();
+ 			//setup
+ 			TwitterDialogFragment twitterDialog = new TwitterDialogFragment.Builder("message","url.com") //
+			.callbackUrl("http://www.website.com") //
+			.consumerKey("XXXXXXXXXXXXXXXXXXXXXX") //
+			.consumerSecret("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") //
+			.urlOAuth("oauth_verifier") //
+			.build();
 
-		//show the dialog
-		twitterDialog.show(getSupportFragmentManager(), TwitterDialogFragment.class.getSimpleName());
+			//show the dialog
+			twitterDialog.show(getSupportFragmentManager(), TwitterDialogFragment.class.getSimpleName());
 
 
 Enjoy !
